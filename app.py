@@ -57,6 +57,9 @@ def Details():
 @app.route('/Data')
 def Data():
     data = {
+        "Name": "Shilpa",
+        "Age": 30,
+        "City": "U.S.A"
         "Name": "Arun Kumar",
         "Age": 30,
         "City": "India"
