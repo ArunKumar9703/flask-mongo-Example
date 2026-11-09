@@ -60,6 +60,9 @@ def Data():
         "Name": "Shilpa",
         "Age": 30,
         "City": "U.S.A"
+        "Name": "Arun Kumar",
+        "Age": 30,
+        "City": "India"
     }
     with open('data.json', 'w') as f:
         json.dump(data, f)
